@@ -12,7 +12,7 @@ stdenv.mkDerivation rec {
   meta = with lib; {
     description = "Additional utilities for working with a NixOS system.";
     license = licenses.mit;
-    maintainers = [ maintainers.jdev082 ];
+    maintainers = [ jdev082 ];
     platforms = platforms.all;
   };
 }

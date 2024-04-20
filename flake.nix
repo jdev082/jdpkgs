@@ -1,5 +1,5 @@
 {
-  description = "My personal NUR repository";
+  description = "N(ix) U(ser) R(epository) for my software and other software I wish to package here. ";
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
   outputs = { self, nixpkgs }:
     let

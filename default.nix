@@ -15,7 +15,7 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   nx-utils = pkgs.callPackage ./pkgs/nx-utils { };
-  catalyst3 = pkgs.callpackage ./pkgs/catalyst3 { };
+  catalyst3 = pkgs.callPackage ./pkgs/catalyst3 { };
   # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
   # ...
 }

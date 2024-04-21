@@ -60,7 +60,7 @@ stdenv.mkDerivation rec {
     asar pack resources/ $out/share/${pname}/resources/app.asar
 
     substituteInPlace $out/share/applications/${pname}.desktop \
-      --replace 'Exec=AppRun' 'Exec=${pname}'
+      --replace 'Exec=catalyst' 'Exec=${pname}'
 
     runHook postInstall
   '';
